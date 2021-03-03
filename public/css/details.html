@@ -1,0 +1,2129 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="academy, college, coursera, courses, education, elearning, kindergarten, lms, lynda, online course, online education, school, training, udemy, university">
+<meta name="description" content="Edumy - LMS Online Education Course & School HTML Template">
+<meta name="CreativeLayers" content="ATFN">
+<!-- css file -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- Responsive stylesheet -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Title -->
+<title>DreamCrowd</title>
+<!-- Favicon -->
+<link href="images/favicon.png" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+<link href="images/favicon.png" sizes="128x128" rel="shortcut icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+	.signup-btn{
+		color: #FF5A5F;
+	}
+	.vertical-wrapper1{
+		padding: 13px 30px !important;
+  		margin-top: 19px !important;
+  		border-radius: 1.5rem;
+	    border: 1px solid #FF5A5F;
+	    color: #FF5A5F;
+	    padding: 0 1rem;
+	    margin-left: .5rem;
+	}
+	.creators-avatar{
+		float: left;
+		margin: 0;
+		left: 0;
+	}
+	.mbp_thumb_post .details h3,
+	.main_blog_post_content .mbp_thumb_post .details ul.post_meta {
+		width: calc(100% - 5rem);
+		float: left;
+		margin-left: 1rem;
+	}
+	.cs_row_two .cs_overview ul.cs_course_syslebus{
+		width: 100%;
+		margin: 0
+	}
+	.cs_row_two .cs_overview ul.cs_course_syslebus li{
+		width: 50%;
+		float: left;
+	}
+	.main_blog_post_content .thumb img{
+		height: 433px;
+		object-fit: cover;
+		object-position: top center;
+	}
+	.datepicker table tr td.active:hover, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active[disabled], .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active.disabled:hover[disabled] {
+	    background-color: rgb(255 90 95);
+	    background-image: none;
+	}
+	.inner_page_breadcrumb:before{
+		background: rgba(0,0,0,0.60)
+	}
+	.sign_up_btn .btn{
+		color: #0a0a0a;
+	}
+	header.header-nav.menu_style_home_three a.navbar_brand span, header.header-nav.menu_style_home_five a.navbar_brand span{
+		color: #0a0a0a;
+	}
+	header.header-nav.menu_style_home_one a.navbar_brand span{
+		color: #fff;
+	}
+	.vertical-wrapper .title-vertical.home5.categories{
+		color: #fff ;
+	}
+	a.username,.sign_up_btn .btn{
+		color: #fff ;
+	}
+ 	header.header-nav.menu_style_home_one.stricky-fixed .vertical-wrapper .title-vertical.home5.categories{
+	 	color: #0a0a0a !important;
+ 	}
+ 	select.select-pay option{
+ 		color: #0a0a0a;
+ 	}
+ 	select.select-pay option:hover{
+ 		color: #fff !important;
+ 		background-color: rgb(255,90,95) !important; 
+ 	}
+	@media only screen and (max-width: 767px){
+		.cs_row_two .cs_overview ul.cs_course_syslebus li{
+			width: 100%
+		}
+		.main_blog_post_content .thumb img {
+		    height: 300px;
+		}
+	}
+</style>
+
+</head>
+<body>
+<div class="wrapper">
+	<div class="preloader"></div>
+
+	<!-- Main Header Nav -->
+	<header class="header-nav menu_style_home_one navbar-scrolltofixed stricky main-menu">
+		<div class="container-fluid">
+		    <!-- Ace Responsive Menu -->
+		    <nav>
+		        <!-- Menu Toggle btn-->
+		        <div class="menu-toggle">
+		            <img class="nav_logo_img img-fluid" src="images/logo/header-logo2.png" alt="Dreamcrowd" style="height: 55px;">
+		            <button type="button" id="menu-btn">
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+		        </div>
+		        <a href="index.html" class="navbar_brand float-left dn-smd">
+		            <img class="logo1 img-fluid" src="images/logo/header-logo2.png" alt="Dreamcrowd" style="height: 55px;">
+		            <img class="logo2 img-fluid" src="images/logo/header-logo2.png" alt="Dreamcrowd" style="height: 55px;">
+		            <span>dreamcrowd</span>
+		        </a>
+		        <!-- Responsive Menu Structure-->
+		        <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+		        <div class="ht_left_widget home5 float-left">
+					<ul>
+						<li class="list-inline-item d-none">
+							<div class="header_top_lang_widget">
+								<div class="ht-widget-container">
+									<div class="vertical-wrapper">
+										<h2 class="title-vertical home5 categories">
+											<span class="text-title">Categories</span> <i class="fa fa-angle-down show-down" aria-hidden="true"></i>
+										</h2>
+										<div class="content-vertical home5">
+											<ul id="vertical-menu" class="mega-vertical-menu nav navbar-nav">
+												<li>
+													<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Art Classes <b class="caret"></b></a>
+													<div class="dropdown-menu vertical-megamenu" style="width: 550px;">
+														<div class="dropdown-menu-inner">
+															<div class="element-inner">
+																<div class="element-section-wrap">
+																	<div class="element-container">
+																		<div class="element-row"> 
+																			<div class="col-lg-12 p0">
+																				<div class="element-img-widget-wrapper">
+																						<a href="#"><img class="img-fluid" src="images/categories/art-class.jpg" alt="Art Classes"></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Cooking Classes <b class="caret"></b></a>
+													<div class="dropdown-menu vertical-megamenu" style="width: 550px;">
+														<div class="dropdown-menu-inner">
+															<div class="element-inner">
+																<div class="element-section-wrap">
+																	<div class="element-container">
+																		<div class="element-row"> 
+																			<div class="col-lg-12 p0">
+																				<div class="element-img-widget-wrapper">
+																						<a href="#"><img class="img-fluid" src="images/categories/cooking-class.jpeg" alt="Cooking Classes"></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Music Classes <b class="caret"></b></a>
+													<div class="dropdown-menu vertical-megamenu" style="width: 550px;">
+														<div class="dropdown-menu-inner">
+															<div class="element-inner">
+																<div class="element-section-wrap">
+																	<div class="element-container">
+																		<div class="element-row"> 
+																			<div class="col-lg-12 p0">
+																				<div class="element-img-widget-wrapper">
+																						<a href="#"><img class="img-fluid" src="images/categories/music-class.jpg" alt="Music Classes"></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Film-Making Classes <b class="caret"></b></a>
+													<div class="dropdown-menu vertical-megamenu" style="width: 550px;">
+														<div class="dropdown-menu-inner">
+															<div class="element-inner">
+																<div class="element-section-wrap">
+																	<div class="element-container">
+																		<div class="element-row"> 
+																			<div class="col-lg-12 p0">
+																				<div class="element-img-widget-wrapper">
+																						<a href="#"><img class="img-fluid" src="images/categories/film-making-class.jpg" alt="Film-Making Classes"></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Dance Classes <b class="caret"></b></a>
+													<div class="dropdown-menu vertical-megamenu" style="width: 550px;">
+														<div class="dropdown-menu-inner">
+															<div class="element-inner">
+																<div class="element-section-wrap">
+																	<div class="element-container">
+																		<div class="element-row"> 
+																			<div class="col-lg-12 p0">
+																				<div class="element-img-widget-wrapper">
+																						<a href="#"><img class="img-fluid" src="images/categories/dance-class.jpg" alt="Dance Classes"></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Language Classes <b class="caret"></b></a>
+													<div class="dropdown-menu vertical-megamenu" style="width: 550px;">
+														<div class="dropdown-menu-inner">
+															<div class="element-inner">
+																<div class="element-section-wrap">
+																	<div class="element-container">
+																		<div class="element-row"> 
+																			<div class="col-lg-12 p0">
+																				<div class="element-img-widget-wrapper">
+																						<a href="#"><img class="img-fluid" src="images/categories/language-class.jpg" alt="Language Classes"></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Photography Classes <b class="caret"></b></a>
+													<div class="dropdown-menu vertical-megamenu" style="width: 550px;">
+														<div class="dropdown-menu-inner">
+															<div class="element-inner">
+																<div class="element-section-wrap">
+																	<div class="element-container">
+																		<div class="element-row"> 
+																			<div class="col-lg-12 p0">
+																				<div class="element-img-widget-wrapper">
+																						<a href="#"><img class="img-fluid" src="images/categories/photography-class.jpg" alt="Photography Classes"></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li>
+													<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Acting Classes <b class="caret"></b></a>
+													<div class="dropdown-menu vertical-megamenu" style="width: 550px;">
+														<div class="dropdown-menu-inner">
+															<div class="element-inner">
+																<div class="element-section-wrap">
+																	<div class="element-container">
+																		<div class="element-row"> 
+																			<div class="col-lg-12 p0">
+																				<div class="element-img-widget-wrapper">
+																						<a href="#"><img class="img-fluid" src="images/categories/acting-class.jpg" alt="Acting Classes & Lots More"></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="list-inline-item" id="cat-menu">
+							<ul class="cart">
+					            <li>
+					                <a href="#" class="username"><span class="title">Categories <span class="arrow"></span></a> 
+
+					                <ul class="dropdown_content dropdown_content-md dropdown_content-lg">
+			                    		<div class="row m-0">
+			                    			<div class="col-lg-8 col-md-8">
+			                    				<h5 class="mb-3" style="border-bottom: 1px solid #dedede"><b>Classes  &  Activities [Online Experiences]</b></h5>
+			                    				<div class="row">
+			                    					<div class="col-lg-6 col-md-6">
+					                    				<ul class=""> 
+														   	<li class="list_content"><a href="#">Art & Painting</a></li>
+					                    					<li class="list_content"><a href="#">Cooking & Baking</a></li> 
+					                    					<li class="list_content"><a href="#">Music & Song-Writing</a></li> 
+					                    					<li class="list_content"><a href="#">Film-Making</a></li> 
+					                    					<li class="list_content"><a href="#">Dance & Fitness</a></li> 
+					                    					<li class="list_content"><a href="#">Travel & Languages</a></li> 
+					                    					<li class="list_content"><a href="#">Photography</a></li> 
+					                    					<li class="list_content"><a href="#">Graphic Design</a></li> 
+														</ul>
+													</div>
+													<div class="col-lg-6 col-md-6">
+														<ul class=""> 
+														   	<li class="list_content"><a href="#">Business Analytics</a></li>
+					                    					<li class="list_content"><a href="#">Freelance & Entrepreneurship</a></li>
+					                    					<li class="list_content"><a href="#">Leadership & Management</a></li>
+					                    					<li class="list_content"><a href="#">Marketing</a></li> 
+					                    					<li class="list_content"><a href="#">Lifestyle</a></li>
+					                    					<li class="list_content"><a href="#">Productivity</a></li> 
+														</ul>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-lg-4 col-md-4">
+												<ul class="last-col"> 
+												   	<li class="list_content"><a href="#" class="pt-0"><b class="mb-0">All Experiences</b></a></li>
+			                    					<li class="list_content"><a href="#"><b class="mb-0">Recommended Classes</b></a></li> 
+			                    					<li class="list_content"><a href="#"><b class="mb-0">Student Projects</b></a></li> 
+			                    					<li class="list_content mt-2 pt-3" style="border-top: 1px solid #dedede;"><a href="http://dreamcrowd1.tjcg.in/to_be_host"><b class="mb-0">Become a Host</b></a></li>  
+												</ul>
+			                    			</div>
+			                    		</div>                                   
+			                    	</ul> 
+					            </li>  
+							</ul>
+						</li> 
+					</ul>
+
+				</div>
+		        <ul class="sign_up_btn float-right dn-smd mt12">
+	                <li class="list-inline-item">
+						<ul class="cart">
+				            <li>
+				                <a href="#" class="username"><span class="title">English <span class="arrow"></span></a>   
+				                <ul class="dropdown_content dropdown_content-sm">
+		                    		<div class="row m-0">
+		                    			<div class="language">
+		                    				<h5 class="text-center mb-3"><b>Languages</b></h5>
+		                    				<ul class="LanguageList">
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none">
+											         	<input class="CheckboxInput" id="de" type="checkbox" value="de">
+											         </div>
+											         <label class="CheckboxLabel" for="de">Deutsch</label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none">
+											            <input class="CheckboxInput" id="en" type="checkbox" value="en" checked="">
+											         </div>
+											         <label class="CheckboxLabel" for="en">English</label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none">
+											         	<input class="CheckboxInput" id="es" type="checkbox" value="es"></div>
+											         <label class="CheckboxLabel" for="es">Español</label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none">
+											         	<input class="CheckboxInput" id="fr" type="checkbox" value="fr"></div>
+											         <label class="CheckboxLabel" for="fr">Français</label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none">
+											         	<input class="CheckboxInput" id="it" type="checkbox" value="it"></div>
+											         <label class="CheckboxLabel" for="it">Italiano</label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none">
+											         	<input class="CheckboxInput" id="nl" type="checkbox" value="nl"></div>
+											         <label class="CheckboxLabel" for="nl">Nederlands</label>
+											      </div>
+											   </li>
+											</ul> 
+		                    			</div>
+		                    		</div>                                   
+		                    	</ul> 
+				            </li>  
+						</ul>
+					</li> 
+					<li class="list-inline-item">
+						<ul class="cart">
+				            <li>
+				                <a href="#" class="username"><span class="title">USD ($) <span class="arrow"></span></a>   
+				                <ul class="dropdown_content dropdown_content-md">
+		                    		<div class="row m-0">
+		                    			<div class="currency">
+		                    				<h5 class="text-center mb-3"><b>Currency</b></h5>
+		                    				<ul class="CurrencyList">
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="EUR" type="checkbox" value="EUR" checked=""></div>
+											         <label class="CheckboxLabel" for="EUR"><span class="Symbol">€</span><span>EUR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="USD" type="checkbox" value="USD"></div>
+											         <label class="CheckboxLabel" for="USD"><span class="Symbol">$</span><span>USD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="GBP" type="checkbox" value="GBP"></div>
+											         <label class="CheckboxLabel" for="GBP"><span class="Symbol">£</span><span>GBP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="CAD" type="checkbox" value="CAD"></div>
+											         <label class="CheckboxLabel" for="CAD"><span class="Symbol">$</span><span>CAD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="AED" type="checkbox" value="AED"></div>
+											         <label class="CheckboxLabel" for="AED"><span class="Symbol">د.إ.‏</span><span>AED</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="AFN" type="checkbox" value="AFN"></div>
+											         <label class="CheckboxLabel" for="AFN"><span class="Symbol">؋</span><span>AFN</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="ALL" type="checkbox" value="ALL"></div>
+											         <label class="CheckboxLabel" for="ALL"><span class="Symbol">Lek</span><span>ALL</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="AMD" type="checkbox" value="AMD"></div>
+											         <label class="CheckboxLabel" for="AMD"><span class="Symbol">դր.</span><span>AMD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="ARS" type="checkbox" value="ARS"></div>
+											         <label class="CheckboxLabel" for="ARS"><span class="Symbol">$</span><span>ARS</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="AUD" type="checkbox" value="AUD"></div>
+											         <label class="CheckboxLabel" for="AUD"><span class="Symbol">$</span><span>AUD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="AZN" type="checkbox" value="AZN"></div>
+											         <label class="CheckboxLabel" for="AZN"><span class="Symbol">ман.</span><span>AZN</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BAM" type="checkbox" value="BAM"></div>
+											         <label class="CheckboxLabel" for="BAM"><span class="Symbol">KM</span><span>BAM</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BDT" type="checkbox" value="BDT"></div>
+											         <label class="CheckboxLabel" for="BDT"><span class="Symbol">৳</span><span>BDT</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BGN" type="checkbox" value="BGN"></div>
+											         <label class="CheckboxLabel" for="BGN"><span class="Symbol">лв.</span><span>BGN</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BHD" type="checkbox" value="BHD"></div>
+											         <label class="CheckboxLabel" for="BHD"><span class="Symbol">د.ب.‏</span><span>BHD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BIF" type="checkbox" value="BIF"></div>
+											         <label class="CheckboxLabel" for="BIF"><span class="Symbol">FBu</span><span>BIF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BND" type="checkbox" value="BND"></div>
+											         <label class="CheckboxLabel" for="BND"><span class="Symbol">$</span><span>BND</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BOB" type="checkbox" value="BOB"></div>
+											         <label class="CheckboxLabel" for="BOB"><span class="Symbol">Bs</span><span>BOB</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BRL" type="checkbox" value="BRL"></div>
+											         <label class="CheckboxLabel" for="BRL"><span class="Symbol">R$</span><span>BRL</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BWP" type="checkbox" value="BWP"></div>
+											         <label class="CheckboxLabel" for="BWP"><span class="Symbol">P</span><span>BWP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BYN" type="checkbox" value="BYN"></div>
+											         <label class="CheckboxLabel" for="BYN"><span class="Symbol">руб.</span><span>BYN</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="BZD" type="checkbox" value="BZD"></div>
+											         <label class="CheckboxLabel" for="BZD"><span class="Symbol">$</span><span>BZD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="CDF" type="checkbox" value="CDF"></div>
+											         <label class="CheckboxLabel" for="CDF"><span class="Symbol">FrCD</span><span>CDF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="CHF" type="checkbox" value="CHF"></div>
+											         <label class="CheckboxLabel" for="CHF"><span class="Symbol">CHF</span><span>CHF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="CLP" type="checkbox" value="CLP"></div>
+											         <label class="CheckboxLabel" for="CLP"><span class="Symbol">$</span><span>CLP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="CNY" type="checkbox" value="CNY"></div>
+											         <label class="CheckboxLabel" for="CNY"><span class="Symbol">CN¥</span><span>CNY</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="COP" type="checkbox" value="COP"></div>
+											         <label class="CheckboxLabel" for="COP"><span class="Symbol">$</span><span>COP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="CRC" type="checkbox" value="CRC"></div>
+											         <label class="CheckboxLabel" for="CRC"><span class="Symbol">₡</span><span>CRC</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="CVE" type="checkbox" value="CVE"></div>
+											         <label class="CheckboxLabel" for="CVE"><span class="Symbol">CV$</span><span>CVE</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="CZK" type="checkbox" value="CZK"></div>
+											         <label class="CheckboxLabel" for="CZK"><span class="Symbol">Kč</span><span>CZK</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="DJF" type="checkbox" value="DJF"></div>
+											         <label class="CheckboxLabel" for="DJF"><span class="Symbol">Fdj</span><span>DJF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="DKK" type="checkbox" value="DKK"></div>
+											         <label class="CheckboxLabel" for="DKK"><span class="Symbol">kr</span><span>DKK</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="DOP" type="checkbox" value="DOP"></div>
+											         <label class="CheckboxLabel" for="DOP"><span class="Symbol">RD$</span><span>DOP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="DZD" type="checkbox" value="DZD"></div>
+											         <label class="CheckboxLabel" for="DZD"><span class="Symbol">د.ج.‏</span><span>DZD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="EGP" type="checkbox" value="EGP"></div>
+											         <label class="CheckboxLabel" for="EGP"><span class="Symbol">ج.م.‏</span><span>EGP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="ERN" type="checkbox" value="ERN"></div>
+											         <label class="CheckboxLabel" for="ERN"><span class="Symbol">Nfk</span><span>ERN</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="ETB" type="checkbox" value="ETB"></div>
+											         <label class="CheckboxLabel" for="ETB"><span class="Symbol">Br</span><span>ETB</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="GEL" type="checkbox" value="GEL"></div>
+											         <label class="CheckboxLabel" for="GEL"><span class="Symbol">GEL</span><span>GEL</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="GHS" type="checkbox" value="GHS"></div>
+											         <label class="CheckboxLabel" for="GHS"><span class="Symbol">GH₵</span><span>GHS</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="GNF" type="checkbox" value="GNF"></div>
+											         <label class="CheckboxLabel" for="GNF"><span class="Symbol">FG</span><span>GNF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="GTQ" type="checkbox" value="GTQ"></div>
+											         <label class="CheckboxLabel" for="GTQ"><span class="Symbol">Q</span><span>GTQ</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="HKD" type="checkbox" value="HKD"></div>
+											         <label class="CheckboxLabel" for="HKD"><span class="Symbol">$</span><span>HKD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="HNL" type="checkbox" value="HNL"></div>
+											         <label class="CheckboxLabel" for="HNL"><span class="Symbol">L</span><span>HNL</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="HRK" type="checkbox" value="HRK"></div>
+											         <label class="CheckboxLabel" for="HRK"><span class="Symbol">kn</span><span>HRK</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="HUF" type="checkbox" value="HUF"></div>
+											         <label class="CheckboxLabel" for="HUF"><span class="Symbol">Ft</span><span>HUF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="IDR" type="checkbox" value="IDR"></div>
+											         <label class="CheckboxLabel" for="IDR"><span class="Symbol">Rp</span><span>IDR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="ILS" type="checkbox" value="ILS"></div>
+											         <label class="CheckboxLabel" for="ILS"><span class="Symbol">₪</span><span>ILS</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="INR" type="checkbox" value="INR"></div>
+											         <label class="CheckboxLabel" for="INR"><span class="Symbol">₹</span><span>INR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="IQD" type="checkbox" value="IQD"></div>
+											         <label class="CheckboxLabel" for="IQD"><span class="Symbol">د.ع.‏</span><span>IQD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="IRR" type="checkbox" value="IRR"></div>
+											         <label class="CheckboxLabel" for="IRR"><span class="Symbol">﷼</span><span>IRR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="ISK" type="checkbox" value="ISK"></div>
+											         <label class="CheckboxLabel" for="ISK"><span class="Symbol">kr</span><span>ISK</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="JMD" type="checkbox" value="JMD"></div>
+											         <label class="CheckboxLabel" for="JMD"><span class="Symbol">$</span><span>JMD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="JOD" type="checkbox" value="JOD"></div>
+											         <label class="CheckboxLabel" for="JOD"><span class="Symbol">د.أ.‏</span><span>JOD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="JPY" type="checkbox" value="JPY"></div>
+											         <label class="CheckboxLabel" for="JPY"><span class="Symbol">￥</span><span>JPY</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="KES" type="checkbox" value="KES"></div>
+											         <label class="CheckboxLabel" for="KES"><span class="Symbol">Ksh</span><span>KES</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="KHR" type="checkbox" value="KHR"></div>
+											         <label class="CheckboxLabel" for="KHR"><span class="Symbol">៛</span><span>KHR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="KMF" type="checkbox" value="KMF"></div>
+											         <label class="CheckboxLabel" for="KMF"><span class="Symbol">FC</span><span>KMF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="KRW" type="checkbox" value="KRW"></div>
+											         <label class="CheckboxLabel" for="KRW"><span class="Symbol">₩</span><span>KRW</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="KWD" type="checkbox" value="KWD"></div>
+											         <label class="CheckboxLabel" for="KWD"><span class="Symbol">د.ك.‏</span><span>KWD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="KZT" type="checkbox" value="KZT"></div>
+											         <label class="CheckboxLabel" for="KZT"><span class="Symbol">тңг.</span><span>KZT</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="LBP" type="checkbox" value="LBP"></div>
+											         <label class="CheckboxLabel" for="LBP"><span class="Symbol">ل.ل.‏</span><span>LBP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="LKR" type="checkbox" value="LKR"></div>
+											         <label class="CheckboxLabel" for="LKR"><span class="Symbol">SL Re</span><span>LKR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="LYD" type="checkbox" value="LYD"></div>
+											         <label class="CheckboxLabel" for="LYD"><span class="Symbol">د.ل.‏</span><span>LYD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="MAD" type="checkbox" value="MAD"></div>
+											         <label class="CheckboxLabel" for="MAD"><span class="Symbol">د.م.‏</span><span>MAD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="MDL" type="checkbox" value="MDL"></div>
+											         <label class="CheckboxLabel" for="MDL"><span class="Symbol">MDL</span><span>MDL</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="MGA" type="checkbox" value="MGA"></div>
+											         <label class="CheckboxLabel" for="MGA"><span class="Symbol">MGA</span><span>MGA</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="MKD" type="checkbox" value="MKD"></div>
+											         <label class="CheckboxLabel" for="MKD"><span class="Symbol">MKD</span><span>MKD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="MMK" type="checkbox" value="MMK"></div>
+											         <label class="CheckboxLabel" for="MMK"><span class="Symbol">K</span><span>MMK</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="MOP" type="checkbox" value="MOP"></div>
+											         <label class="CheckboxLabel" for="MOP"><span class="Symbol">MOP$</span><span>MOP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="MUR" type="checkbox" value="MUR"></div>
+											         <label class="CheckboxLabel" for="MUR"><span class="Symbol">MURs</span><span>MUR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="MXN" type="checkbox" value="MXN"></div>
+											         <label class="CheckboxLabel" for="MXN"><span class="Symbol">$</span><span>MXN</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="MYR" type="checkbox" value="MYR"></div>
+											         <label class="CheckboxLabel" for="MYR"><span class="Symbol">RM</span><span>MYR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="MZN" type="checkbox" value="MZN"></div>
+											         <label class="CheckboxLabel" for="MZN"><span class="Symbol">MTn</span><span>MZN</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="NAD" type="checkbox" value="NAD"></div>
+											         <label class="CheckboxLabel" for="NAD"><span class="Symbol">N$</span><span>NAD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="NGN" type="checkbox" value="NGN"></div>
+											         <label class="CheckboxLabel" for="NGN"><span class="Symbol">₦</span><span>NGN</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="NIO" type="checkbox" value="NIO"></div>
+											         <label class="CheckboxLabel" for="NIO"><span class="Symbol">C$</span><span>NIO</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="NOK" type="checkbox" value="NOK"></div>
+											         <label class="CheckboxLabel" for="NOK"><span class="Symbol">kr</span><span>NOK</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="NPR" type="checkbox" value="NPR"></div>
+											         <label class="CheckboxLabel" for="NPR"><span class="Symbol">नेरू</span><span>NPR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="NZD" type="checkbox" value="NZD"></div>
+											         <label class="CheckboxLabel" for="NZD"><span class="Symbol">$</span><span>NZD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="OMR" type="checkbox" value="OMR"></div>
+											         <label class="CheckboxLabel" for="OMR"><span class="Symbol">ر.ع.‏</span><span>OMR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="PAB" type="checkbox" value="PAB"></div>
+											         <label class="CheckboxLabel" for="PAB"><span class="Symbol">B/.</span><span>PAB</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="PEN" type="checkbox" value="PEN"></div>
+											         <label class="CheckboxLabel" for="PEN"><span class="Symbol">S/.</span><span>PEN</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="PHP" type="checkbox" value="PHP"></div>
+											         <label class="CheckboxLabel" for="PHP"><span class="Symbol">₱</span><span>PHP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="PKR" type="checkbox" value="PKR"></div>
+											         <label class="CheckboxLabel" for="PKR"><span class="Symbol">₨</span><span>PKR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="PLN" type="checkbox" value="PLN"></div>
+											         <label class="CheckboxLabel" for="PLN"><span class="Symbol">zł</span><span>PLN</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="PYG" type="checkbox" value="PYG"></div>
+											         <label class="CheckboxLabel" for="PYG"><span class="Symbol">₲</span><span>PYG</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="QAR" type="checkbox" value="QAR"></div>
+											         <label class="CheckboxLabel" for="QAR"><span class="Symbol">ر.ق.‏</span><span>QAR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="RON" type="checkbox" value="RON"></div>
+											         <label class="CheckboxLabel" for="RON"><span class="Symbol">RON</span><span>RON</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="RSD" type="checkbox" value="RSD"></div>
+											         <label class="CheckboxLabel" for="RSD"><span class="Symbol">дин.</span><span>RSD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="RUB" type="checkbox" value="RUB"></div>
+											         <label class="CheckboxLabel" for="RUB"><span class="Symbol">₽.</span><span>RUB</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="RWF" type="checkbox" value="RWF"></div>
+											         <label class="CheckboxLabel" for="RWF"><span class="Symbol">FR</span><span>RWF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="SAR" type="checkbox" value="SAR"></div>
+											         <label class="CheckboxLabel" for="SAR"><span class="Symbol">ر.س.‏</span><span>SAR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="SDG" type="checkbox" value="SDG"></div>
+											         <label class="CheckboxLabel" for="SDG"><span class="Symbol">SDG</span><span>SDG</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="SEK" type="checkbox" value="SEK"></div>
+											         <label class="CheckboxLabel" for="SEK"><span class="Symbol">kr</span><span>SEK</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="SGD" type="checkbox" value="SGD"></div>
+											         <label class="CheckboxLabel" for="SGD"><span class="Symbol">$</span><span>SGD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="SOS" type="checkbox" value="SOS"></div>
+											         <label class="CheckboxLabel" for="SOS"><span class="Symbol">Ssh</span><span>SOS</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="SYP" type="checkbox" value="SYP"></div>
+											         <label class="CheckboxLabel" for="SYP"><span class="Symbol">ل.س.‏</span><span>SYP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="THB" type="checkbox" value="THB"></div>
+											         <label class="CheckboxLabel" for="THB"><span class="Symbol">฿</span><span>THB</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="TND" type="checkbox" value="TND"></div>
+											         <label class="CheckboxLabel" for="TND"><span class="Symbol">د.ت.‏</span><span>TND</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="TOP" type="checkbox" value="TOP"></div>
+											         <label class="CheckboxLabel" for="TOP"><span class="Symbol">T$</span><span>TOP</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="TRY" type="checkbox" value="TRY"></div>
+											         <label class="CheckboxLabel" for="TRY"><span class="Symbol">TL</span><span>TRY</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="TTD" type="checkbox" value="TTD"></div>
+											         <label class="CheckboxLabel" for="TTD"><span class="Symbol">$</span><span>TTD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="TWD" type="checkbox" value="TWD"></div>
+											         <label class="CheckboxLabel" for="TWD"><span class="Symbol">NT$</span><span>TWD</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="TZS" type="checkbox" value="TZS"></div>
+											         <label class="CheckboxLabel" for="TZS"><span class="Symbol">TSh</span><span>TZS</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="UAH" type="checkbox" value="UAH"></div>
+											         <label class="CheckboxLabel" for="UAH"><span class="Symbol">₴</span><span>UAH</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="UGX" type="checkbox" value="UGX"></div>
+											         <label class="CheckboxLabel" for="UGX"><span class="Symbol">USh</span><span>UGX</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="UYU" type="checkbox" value="UYU"></div>
+											         <label class="CheckboxLabel" for="UYU"><span class="Symbol">$</span><span>UYU</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="UZS" type="checkbox" value="UZS"></div>
+											         <label class="CheckboxLabel" for="UZS"><span class="Symbol">UZS</span><span>UZS</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="VEF" type="checkbox" value="VEF"></div>
+											         <label class="CheckboxLabel" for="VEF"><span class="Symbol">Bs.F.</span><span>VEF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="VND" type="checkbox" value="VND"></div>
+											         <label class="CheckboxLabel" for="VND"><span class="Symbol">₫</span><span>VND</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="XAF" type="checkbox" value="XAF"></div>
+											         <label class="CheckboxLabel" for="XAF"><span class="Symbol">FCFA</span><span>XAF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="XOF" type="checkbox" value="XOF"></div>
+											         <label class="CheckboxLabel" for="XOF"><span class="Symbol">CFA</span><span>XOF</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="YER" type="checkbox" value="YER"></div>
+											         <label class="CheckboxLabel" for="YER"><span class="Symbol">ر.ي.‏</span><span>YER</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="ZAR" type="checkbox" value="ZAR"></div>
+											         <label class="CheckboxLabel" for="ZAR"><span class="Symbol">R</span><span>ZAR</span></label>
+											      </div>
+											   </li>
+											   <li class="ListItem">
+											      <div class="CheckboxRow">
+											         <div class="CheckboxWrapper d-none"><input class="CheckboxInput" id="ZWL" type="checkbox" value="ZWL"></div>
+											         <label class="CheckboxLabel" for="ZWL"><span class="Symbol">ZWL$</span><span>ZWL</span></label>
+											      </div>
+											   </li>
+											</ul>
+		                    			</div>
+		                    		</div>                                   
+		                    	</ul> 
+				            </li>  
+						</ul>
+					</li> 
+
+					<li class="list-inline-item">
+						<a href="#" class="username"><i class="flaticon-like pr5"></i><span class="dn-lg">Wishlist</span></a></li>
+	                <li class="list-inline-item">
+	                	<div class="cart_btn home5">
+							<ul class="cart">
+								<li id="shopcart">
+									<a href="#" class="btn cart_btn username">
+										<img class="logo1 img-fluid" src="images/cart-white.png" alt="Cart" style="height: 20px;width: 23px; margin-top: -4px;">
+										<img class="logo2 img-fluid" src="images/cart.png" alt="Cart" style="height: 20px;width: 23px; margin-top: -4px;">
+										<span><sup>5</sup></span>
+									</a>
+									<ul class="dropdown_content">
+										<li class="list_content">
+											<table width="100%">
+												<tr>
+													<td>
+														<img class="float-left cartCreatorImg" src="images/testimonial/4.jpg" alt="Creator">
+													</td>
+													<td><span>Ali Tufan</span></td>
+													<td><span>Photography</span></td>
+													<td><span>$7.90</span></td>
+													<td><span class="close_icon float-right"><i class="fa fa-close"></i></span></td>
+												</tr>
+												<tr>
+													<td>
+														<img class="float-left cartCreatorImg" src="images/testimonial/1.jpg" alt="Creator">
+													</td>
+													<td><span>Ali Tufan</span></td>
+													<td><span>Photography</span></td>
+													<td><span>$7.90</span></td>
+													<td><span class="close_icon float-right"><i class="fa fa-close"></i></span></td>
+												</tr>
+												<tr>
+													<td>
+														<img class="float-left cartCreatorImg" src="images/testimonial/3.jpg" alt="Creator">
+													</td>
+													<td><span>Ali Tufan</span></td>
+													<td><span>Photography</span></td>
+													<td><span>$7.90</span></td>
+													<td><span class="close_icon float-right"><i class="fa fa-close"></i></span></td>
+												</tr>
+												<tr>
+													<td colspan="2">
+														<a href="#"><i class="flaticon-left-arrow"></i> Back to Shop</a>
+													</td>
+													<td><span>Subtotal</span></td>
+													<td><span>$7.90</span></td>
+													<td></td>
+												</tr>
+											</table>
+										</li>  
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</li> 
+	                <li class="list-inline-item"><a href="#" class="btn btn-md" data-toggle="modal" data-target="#exampleModalCenter"><i class="flaticon-user pr5"></i> <span class="dn-lg">Login</span></a></li>
+                	<li class="list-inline-item vertical-wrapper"><a href="#" class="btn-md title-vertical home5 signup" data-toggle="modal" data-target="#exampleModalCenter"><i class="flaticon-edit pr5"></i> <span class="dn-lg">Sign Up</span></a></li>
+						
+		        </ul>
+		    </nav>
+		</div>
+	</header>
+	
+	<!-- Modal -->
+	<div class="sign_up_modal modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+	  	<div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		      	</div>
+	    		<ul class="sign_up_tab nav nav-tabs" id="myTab" role="tablist">
+				  	<li class="nav-item">
+				    	<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Login</a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Register</a>
+				  	</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+				  	<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<div class="login_form">
+							<form action="#">
+								<div class="heading">
+									<h3 class="text-center">Login to your account</h3>
+									<p class="text-center">Don't have an account? <a class="text-thm" href="#">Sign Up!</a></p>
+								</div>
+								 <div class="form-group">
+							    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+								</div>
+								<div class="form-group">
+							    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								</div>
+								<div class="form-group custom-control custom-checkbox">
+									<input type="checkbox" class="custom-control-input" id="exampleCheck1">
+									<label class="custom-control-label" for="exampleCheck1">Remember me</label>
+									<a class="tdu btn-fpswd float-right" href="#">Forgot Password?</a>
+								</div>
+								<button type="submit" class="btn btn-log btn-block btn-thm2">Login</button>
+								<hr>
+								<div class="row mt40">
+									<div class="col-lg">
+										<button type="submit" class="btn btn-block color-white bgc-fb"><i class="fa fa-facebook float-left mt5"></i> Facebook</button>
+									</div>
+									<div class="col-lg">
+										<button type="submit" class="btn btn-block color-white bgc-gogle"><i class="fa fa-google float-left mt5"></i> Google</button>
+									</div>
+								</div>
+							</form>
+						</div>
+				  	</div>
+				  	<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+						<div class="sign_up_form">
+							<div class="heading">
+								<h3 class="text-center">Create New Account</h3>
+								<p class="text-center">Have an account? <a class="text-thm" href="#">Login</a></p>
+							</div>
+							<form action="#">
+								<div class="form-group">
+							    	<input type="text" class="form-control" id="exampleInputName1" placeholder="Username">
+								</div>
+								 <div class="form-group">
+							    	<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email Address">
+								</div>
+								<div class="form-group">
+							    	<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+								</div>
+								<div class="form-group">
+							    	<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Confirm Password">
+								</div>
+								<div class="form-group custom-control custom-checkbox">
+									<input type="checkbox" class="custom-control-input" id="exampleCheck2">
+									<label class="custom-control-label" for="exampleCheck2">Want to become an instructor?</label>
+								</div>
+								<button type="submit" class="btn btn-log btn-block btn-thm2">Register</button>
+								<hr>
+								<div class="row mt40">
+									<div class="col-lg">
+										<button type="submit" class="btn btn-block color-white bgc-fb"><i class="fa fa-facebook float-left mt5"></i> Facebook</button>
+									</div>
+									<div class="col-lg">
+										<button type="submit" class="btn btn-block color-white bgc-gogle"><i class="fa fa-google float-left mt5"></i> Google</button>
+									</div>
+								</div>
+							</form>
+						</div>
+				  	</div>
+				</div>
+	    	</div>
+	  	</div>
+	</div>
+	<!-- Modal Search Button Bacground Overlay -->
+    <div class="search_overlay dn-992">
+		<div class="mk-fullscreen-search-overlay" id="mk-search-overlay">
+		    <a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button"><i class="fa fa-times"></i></a>
+		    <div id="mk-fullscreen-search-wrapper">
+		      <form method="get" id="mk-fullscreen-searchform">
+		        <input type="text" value="" placeholder="Search courses..." id="mk-fullscreen-search-input">
+		        <i class="flaticon-magnifying-glass fullscreen-search-icon"><input value="" type="submit"></i>
+		      </form>
+		    </div>
+		</div>
+	</div>
+
+	<!-- Main Header Nav For Mobile -->
+	<div id="page" class="stylehome1 h0">
+		<div class="mobile-menu">
+			<div class="header stylehome1">
+				<div class="main_logo_home2">
+		            <img class="nav_logo_img img-fluid float-left mt20" src="images/logo/header-logo.png" alt="header-logo.png" style="height: 55px;">
+		            <span>dreamcrowd</span>
+				</div>
+				<ul class="menu_bar_home2">
+					<li class="list-inline-item">
+	                	<div class="search_overlay">
+						  <a id="search-button-listener2" class="mk-search-trigger mk-fullscreen-trigger" href="#">
+						    <div id="search-button2"><i class="flaticon-magnifying-glass"></i></div>
+						  </a>
+							<div class="mk-fullscreen-search-overlay" id="mk-search-overlay2">
+							    <a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button2"><i class="fa fa-times"></i></a>
+							    <div id="mk-fullscreen-search-wrapper2">
+							      <form method="get" id="mk-fullscreen-searchform2">
+							        <input type="text" value="" placeholder="Search courses..." id="mk-fullscreen-search-input2">
+							        <i class="flaticon-magnifying-glass fullscreen-search-icon"><input value="" type="submit"></i>
+							      </form>
+							    </div>
+							</div>
+						</div>
+					</li>
+					<li class="list-inline-item"><a href="#menu"><span></span></a></li>
+				</ul>
+			</div>
+		</div><!-- /.mobile-menu -->
+		<nav id="menu" class="stylehome1">
+			<ul>
+				<li><span>USD</span>
+					<ul>
+						<li><a href="#">CAD</a></li>
+						<li><a href="#">EURO</a></li>
+					</ul>
+				</li>
+				<li><a href="page-login.html"><span class="flaticon-user"></span> Login</a></li>
+				<li><a href="page-register.html"><span class="flaticon-edit"></span> Register</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- Inner Page Breadcrumb -->
+	<section class="inner_page_breadcrumb" style="background-position: center;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 offset-xl-3 text-center">
+					<div class="breadcrumb_content">
+						<h4 class="breadcrumb_title">Host Profile</h4>
+						<ol class="breadcrumb">
+						    <li class="breadcrumb-item"><a href="#">Home</a></li>
+						    <li class="breadcrumb-item active" aria-current="page">Host Profile</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> 
+	
+	<!-- Main Blog Post Content -->
+	<section class="blog_post_container our-team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 order-md-12 pl10 pr10">
+					<div class="main_blog_post_widget_list" id="bookingTab">
+						<div class="shortcode_widget_tab">
+							<div class="ui_kit_tab">
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item">
+								    	<a class="nav-link" id="bookingTab1" data-toggle="tab" href="#book-tab1" role="tab" aria-controls="book-tab1" aria-selected="true">Standard<br> Booking</a>
+									</li>
+									<li class="nav-item">
+								    	<a class="nav-link active" id="bookingTab2" data-toggle="tab" href="#book-tab2" role="tab" aria-controls="book-tab2" aria-selected="false">Group<br> Booking</a>
+									</li>
+									<li class="nav-item">
+								    	<a class="nav-link" id="bookingTab3" data-toggle="tab" href="#book-tab3" role="tab" aria-controls="book-tab3" aria-selected="false">One-to-One<br> Booking</a>
+									</li>
+								</ul>
+								<div class="tab-content" id="myTabContent">
+									<div class="blog_category_widget tab-pane fade p-0" id="book-tab1" role="tabpanel" aria-labelledby="bookingTab1">
+										<ul class="list-group p-3 nw_li">
+											<div class="form-row">
+												<div class="form-group col-md-4 mb-0">
+													<i class="fa fa-calendar"></i>
+													<input type="text" id="pickup_date" class="form-control datetimepicker-input" data-target="#pickup_date" placeholder="Select" name="pickup_date">
+												</div>
+												<div class="form-group col-md-4 timepick mb-0">
+													<i class="fa fa-clock-o"></i>
+													<select class="form-control" placeholder="Select Time">
+														<option value="11:00">11:00</option>
+														<option value="11:30">11:30</option>
+														<option value="12:00">12:00</option>
+														<option value="12:30">12:30</option>
+														<option value="13:00">13:00</option>
+														<option value="13:30">13:30</option>
+														<option value="14:00">14:00</option>
+														<option value="14:30">14:30</option>
+														<option value="15:00">15:00</option>
+														<option value="15:30">15:30</option>
+														<option value="16:00">16:00</option>
+														<option value="16:30">16:30</option>
+														<option value="17:00">17:00</option>
+														<option value="17:30">17:30</option>
+														<option value="18:00">18:00</option>
+														<option value="18:30">18:30</option>
+													</select>
+												</div>
+												<div class="form-group col-md-4 mb-0">
+													<div class="dropdown">
+											      		<input type="text" size="25" value="1 Adults" id="count" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+											      		<a href=""><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+											      		<ul class="dropdown-menu default-menu" aria-labelledby="dropdownMenu1">
+												      		<div class="in_lb"> Adults</div>
+												      		<div class="in_lb">Children</div>
+											      		</ul>
+										    	    </div>
+												</div>
+											</div>
+										</ul>
+										<ul class="list-group p-3 scroll-cnt">
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_one" name="radio" type="radio" checked="">
+														<label for="radio_one"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div> 
+											</li>
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_two" name="radio" type="radio" checked="">
+														<label for="radio_two"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div>  
+											</li>
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_three" name="radio" type="radio" checked="">
+														<label for="radio_three"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div> 
+											</li>
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_four" name="radio" type="radio" checked="">
+														<label for="radio_four"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div> 
+											</li>
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_five" name="radio" type="radio" checked="">
+														<label for="radio_five"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div> 
+											</li> 
+										</ul>
+									</div>
+									<div class="blog_category_widget tab-pane fade show active p-0" id="book-tab2" role="tabpanel" aria-labelledby="bookingTab2">
+										<ul class="list-group p-3 nw_li">
+											<!-- <h4 class="title">Designing</h4> -->
+											<div class="form-row">
+												<div class="form-group col-md-4">
+													<i class="fa fa-calendar"></i>
+													<input type="text" id="pickup_date2" class="form-control datetimepicker-input" data-target="#pickup_date2" placeholder="Select" name="pickup_date2">
+												</div>
+												<div class="form-group col-md-4 timepick">
+													<i class="fa fa-clock-o"></i>
+													<!-- <input type="text" id="pickup_time" class="form-control datetimepicker-input" data-target="#pickup_time" placeholder="Select Time" name="pickup_time"> -->
+													<select class="form-control" placeholder="Select Time">
+														<option value="11:00">11:00</option>
+														<option value="11:30">11:30</option>
+														<option value="12:00">12:00</option>
+														<option value="12:30">12:30</option>
+														<option value="13:00">13:00</option>
+														<option value="13:30">13:30</option>
+														<option value="14:00">14:00</option>
+														<option value="14:30">14:30</option>
+														<option value="15:00">15:00</option>
+														<option value="15:30">15:30</option>
+														<option value="16:00">16:00</option>
+														<option value="16:30">16:30</option>
+														<option value="17:00">17:00</option>
+														<option value="17:30">17:30</option>
+														<option value="18:00">18:00</option>
+														<option value="18:30">18:30</option>
+													</select>
+												</div>
+												<div class="form-group col-md-4 mb-0">
+													<div class="dropdown nw">
+										      	<input type="text" size="25" value="1 Adults" id="count" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										      	<a href=""><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+										      
+										      <!-- </button> -->
+										      	<ul class="dropdown-menu default-menu" aria-labelledby="dropdownMenu1">
+										      	<div class="in_lb"> Adults</div>
+										      	<!-- <div class="in_co">
+										        	<input type="button" value="-" id="moins" onclick="minus()">
+
+    												<input type="button" value="+" id="plus" onclick="plus()">
+    											</div> -->
+    											<div class="in_lb">Children</div>
+										      	<!-- <div class="in_co">
+										        	<input type="button" value="-" id="moins" onclick="minus()">
+    												<input type="button" value="+" id="plus" onclick="plus()">
+    											</div> -->
+										      	</ul>
+										    </div>
+												</div>
+											</div>
+										</ul>
+										<ul class="list-group p-3 scroll-cnt">
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_21" name="radio" type="radio" checked="">
+														<label for="radio_21"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div> 
+											</li>
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_22" name="radio" type="radio" checked="">
+														<label for="radio_22"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div>  
+											</li>
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_23" name="radio" type="radio" checked="">
+														<label for="radio_23"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div> 
+											</li>
+										</ul>
+									</div>
+									<div class="blog_category_widget tab-pane fade p-0" id="book-tab3" role="tabpanel" aria-labelledby="bookingTab3">
+										<ul class="list-group p-3 nw_li">
+											<div class="form-row">
+												<div class="form-group col-md-4">
+													<i class="fa fa-calendar"></i>
+													<input type="text" id="pickup_date3" class="form-control datetimepicker-input" data-target="#pickup_date3" placeholder="Select" name="pickup_date3">
+												</div>
+												<div class="form-group col-md-4 timepick">
+													<i class="fa fa-clock-o"></i>
+													<select class="form-control" placeholder="Select Time">
+														<option value="11:00">11:00</option>
+														<option value="11:30">11:30</option>
+														<option value="12:00">12:00</option>
+														<option value="12:30">12:30</option>
+														<option value="13:00">13:00</option>
+														<option value="13:30">13:30</option>
+														<option value="14:00">14:00</option>
+														<option value="14:30">14:30</option>
+														<option value="15:00">15:00</option>
+														<option value="15:30">15:30</option>
+														<option value="16:00">16:00</option>
+														<option value="16:30">16:30</option>
+														<option value="17:00">17:00</option>
+														<option value="17:30">17:30</option>
+														<option value="18:00">18:00</option>
+														<option value="18:30">18:30</option>
+													</select>
+												</div> 
+												<div class="form-group col-md-4 mb-0">
+													<div class="dropdown nw">
+										      	<input type="text" size="25" value="1 Adults" id="count" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										      	<a href=""><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+										      
+										      <!-- </button> -->
+										      	<ul class="dropdown-menu default-menu" aria-labelledby="dropdownMenu1">
+										      	<div class="in_lb"> Adults</div>
+										      	<!-- <div class="in_co">
+										        	<input type="button" value="-" id="moins" onclick="minus()">
+
+    												<input type="button" value="+" id="plus" onclick="plus()">
+    											</div> -->
+    											<div class="in_lb">Children</div>
+										      	<!-- <div class="in_co">
+										        	<input type="button" value="-" id="moins" onclick="minus()">
+    												<input type="button" value="+" id="plus" onclick="plus()">
+    											</div> -->
+										      	</ul>
+										    </div>
+												</div>
+												<div class="form-group col-md-12 mb-0">
+													<!-- <i class="flaticon-user"></i> -->
+													<select class="btn dbxshad btn-md btn-thm rounded w-100 select-pay" placeholder="Select pays">
+														<option value="Pay As You Go">Pay As You Go</option>
+														<option value="Subscription">Subscription</option>
+													</select>
+												</div> 
+											</div>
+										</ul>
+										<ul class="list-group p-3 scroll-cnt">
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_31" name="radio" type="radio" checked="">
+														<label for="radio_31"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div> 
+											</li>
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_32" name="radio" type="radio" checked="">
+														<label for="radio_32"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div>  
+											</li>
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_33" name="radio" type="radio" checked="">
+														<label for="radio_33"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div> 
+											</li>
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_34" name="radio" type="radio" checked="">
+														<label for="radio_34"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div> 
+											</li>
+											<li class="list-group-item d-flex justify-content-between">
+												<div class="ui_kit_radiobox w-100">
+													<div class="radio">
+														<input id="radio_35" name="radio" type="radio" checked="">
+														<label for="radio_35"><span class="radio-label"></span> How to cook chicken<br>[ 1hour ] <a href="#" class="tdu ml-3">View Details</a></label>
+													</div>
+													<span class="float-right">$20 per person<br><button type="button" class="btn dbxshad btn-sm btn-thm rounded w-100">Book</button></span>
+												</div> 
+											</li> 
+										</ul>									
+									</div>
+								</div>
+							</div>						
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-8 order-md-1"> 
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="blog_slider_home1">
+								<div class="item">
+									<div class="main_blog_post_content">
+										<div class="mbp_thumb_post">
+											<div class="thumb">
+												<img class="img-fluid" src="images/blog/12.jpg" alt="12.jpg">
+												<!-- <div class="tag">Marketing</div> -->
+												<div class="post_date"><h2>28</h2> <span>DECEMBER</span></div>
+											</div> 											
+										</div>  
+									</div>
+								</div> 
+								<div class="item">
+									<div class="main_blog_post_content">
+										<div class="mbp_thumb_post">
+											<div class="thumb">
+												<img class="img-fluid" src="images/blog/1.jpg" alt="1.jpg">
+												<!-- <div class="tag">Marketing</div> -->
+												<div class="post_date"><h2>28</h2> <span>DECEMBER</span></div>
+											</div> 											
+										</div>  
+									</div>
+								</div> 
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="main_blog_post_content">
+								<div class="mbp_thumb_post">
+									<div class="details">
+										<div class="creators-avatar">
+											<img class="img-fluid" src="images/testimonial/4.jpg" alt="4.jpg">
+										</div>
+										<h3>Cooking classes with Tommy Lee</h3>
+										<ul class="post_meta">
+											<li><a href="#"><span class="fa fa-map-marker"></span></a></li>
+											<li><a href="#"><span>London, United Kingdom</span></a></li>
+										</ul> 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="courses_single_container"> 
+								<div class="cs_row_two">
+									<div class="cs_overview">
+										<ul class="cs_course_syslebus">
+											<li><i class="flaticon-elearning-1"></i><p>Online Classes</p></li>
+											<li><i class="fa fa-language"></i><p>Hosted in English</p></li> 
+											<li><i class="flaticon-clock"></i><p>30mins- 60mins</p></li>
+											<li><i class="flaticon-user"></i><p>Can arrange classes for 100+ people</p></li> 
+										</ul> 
+									</div>
+								</div> 
+								<div class="cs_row_two">
+									<div class="cs_overview">
+										<h4 class="title">Classess Summary</h4>
+										<ul class="bs_content_list">
+											<li><p>You will need a copy of Adobe XD 2019 or above. A free trial can be downloaded from Adobe.</p></li>
+											<li><p>No previous design experience is needed.</p></li>
+											<li><p>No previous Adobe XD skills are needed.</p></li>
+										</ul>
+										<div class="mbp_blockquote">
+											<div class="blockquote">
+												<span class="font-italic"><i class="fa fa-quote-left"></i></span><em class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's a type specimen book.</em>
+											</div>
+										</div>
+										<p class="mb25">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+										<p class="mb25">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div>
+								</div>
+								<div class="cs_row_two">
+									<div class="cs_overview">
+										<h4 class="title">What to Bring</h4>
+										<p class="mb30">All my classes are recorded. So you can sat back, chill and enjoy the class! <a href="#">Find the previous recorded classes.</a></p>
+										<h4 class="subtitle">If you would like to finally participate, please bring the follwing</h4>
+										<ul class="list_requiremetn">
+											<li><i class="fa fa-check"></i><p>You will need a copy of Adobe XD 2019 or above. A free trial can be downloaded from Adobe.</p></li>
+											<li><i class="fa fa-check"></i><p>No previous design experience is needed.</p></li>
+											<li><i class="fa fa-check"></i><p>No previous Adobe XD skills are needed.</p></li>
+										</ul>
+									</div>
+								</div>
+								<div class="cs_row_two">
+									<div class="cs_overview">
+										<h4 class="title">How to Join Zoom</h4>
+										<ul class="list_requiremetn">
+											<li><i class="fa fa-circle"></i><p>Zoom Video Call: All experiences are in a video call</p></li>
+											<li><i class="fa fa-circle"></i><p>You will receive a Zoom custom link</p></li>
+										</ul>
+									</div>
+								</div>
+								<div class="cs_row_three">
+									<div class="course_content">
+										<div class="cc_headers">
+											<h4 class="title">FAQ</h4>
+										</div>
+										<br>
+										<div class="details">
+										  	<div id="accordion" class="panel-group cc_tab">
+											    <div class="panel">
+											      	<div class="panel-heading">
+												      	<h4 class="panel-title">
+												        	<a href="#panelBodyCourseStart" class="accordion-toggle link" data-toggle="collapse" data-parent="#accordion">What is Zoom?</a>
+												        </h4>
+											      	</div>
+												    <div id="panelBodyCourseStart" class="panel-collapse collapse">
+												        <div class="panel-body">
+												        	<ul class="cs_list mb0">
+												        		<li><span class="flaticon-play-button-1 icon"></span> Lorem Ipsum is simply dummy text of the printing and typesetting industry</li>
+												        	</ul>
+												        </div>
+												    </div>
+											    </div>
+											</div>
+										</div>
+										<div class="details">
+										  	<div id="accordion" class="panel-group cc_tab">
+											    <div class="panel">
+											      	<div class="panel-heading">
+												      	<h4 class="panel-title">
+												        	<a href="#panelBodyCourseBrief" class="accordion-toggle link" data-toggle="collapse" data-parent="#accordion">How to download the Zoom?</a>
+												        </h4>
+											      	</div>
+												    <div id="panelBodyCourseBrief" class="panel-collapse collapse">
+												        <div class="panel-body">
+												        	<ul class="cs_list mb0">
+												        		<li><span class="flaticon-play-button-1 icon"></span> Lorem Ipsum is simply dummy text of the printing and typesetting industry</li>
+												        	</ul>
+												        </div>
+												    </div>
+											    </div>
+											</div>
+										</div> 
+									</div>
+								</div>
+								<div class="cs_row_five">
+									<div class="student_feedback_container">
+										<h4 class="aii_title">Student feedback</h4>
+										<div class="s_feeback_content">
+									        <ul class="skills">
+									        	<li class="list-inline-item">Stars 5</li>
+									            <li class="list-inline-item progressbar1" data-width="84" data-target="100">%84</li>
+									        </ul>
+									        <ul class="skills">
+									        	<li class="list-inline-item">Stars 4</li>
+									            <li class="list-inline-item progressbar2" data-width="9" data-target="100">%9</li>
+									        </ul>
+									        <ul class="skills">
+									        	<li class="list-inline-item">Stars 3</li>
+									            <li class="list-inline-item progressbar3" data-width="3" data-target="100">%3</li>
+									        </ul>
+									        <ul class="skills">
+									        	<li class="list-inline-item">Stars 2</li>
+									            <li class="list-inline-item progressbar4" data-width="1" data-target="100">%1</li>
+									        </ul>
+									        <ul class="skills">
+									        	<li class="list-inline-item">Stars 1</li>
+									            <li class="list-inline-item progressbar5" data-width="2" data-target="100">%2</li>
+									        </ul>
+										</div>
+										<div class="aii_average_review text-center">
+											<div class="av_content">
+												<h2>4.5</h2>
+												<ul class="aii_rive_list mb0">
+													<li class="list-inline-item"><i class="fa fa-star"></i></li>
+													<li class="list-inline-item"><i class="fa fa-star"></i></li>
+													<li class="list-inline-item"><i class="fa fa-star"></i></li>
+													<li class="list-inline-item"><i class="fa fa-star"></i></li>
+													<li class="list-inline-item"><i class="fa fa-star"></i></li>
+												</ul>
+												<p>Course Rating</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="cs_row_six">
+									<div class="sfeedbacks">
+										<h4 class="aii_title">Reviews</h4>
+										<div class="mbp_pagination_comments">
+											<div class="mbp_first media csv1">
+												<img src="images/resource/review1.png" class="mr-3" alt="review1.png">
+												<div class="media-body">
+											    	<h4 class="sub_title mt-0">Warren Bethell
+														<span class="sspd_review float-right">
+															<ul>
+																<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																<li class="list-inline-item"></li>
+															</ul>
+														</span>										    		
+											    	</h4>
+											    	<a class="sspd_postdate fz14" href="#">6 months ago</a>
+											    	<p class="fz15 mt20">This is the second Photoshop course I have completed with Cristian. Worth every penny and recommend it highly. To get the most out of this course, its best to to take the Beginner to Advanced course first.</p>
+											    	<p class="fz15 mt25 mb25">The sound and video quality is of a good standard. Thank you Cristian.</p> <div class="ssp_reply float-right"><span class="flaticon-consulting-message"></span><span class="pl10">Reply</span></div>
+											    	<div class="sspd_review_liked"><a href="#"><i class="flaticon-like-1"></i> <span class="text-thm6 pl5 pr5 fz15">15</span> Thank Waren</a></div>
+													<div class="custom_hr style2"></div>
+												    <div class="mbp_sub media csv1">
+												    	<a href="#"><img src="images/resource/review1.png" class="mr-3" alt="review1.png"></a>
+												        <div class="media-body">
+												        	<h4 class="sub_title mt-0">Anton Hilton
+																<span class="sspd_review float-right">
+																	<ul>
+																		<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																		<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																		<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																		<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																		<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																		<li class="list-inline-item"></li>
+																	</ul>
+																</span>	
+												        	</h4>
+													    	<a class="sspd_postdate fz14" href="#">6 months ago</a>
+													    	<p class="fz15 mt20 mb50">This is the second Photoshop course I have completed with Cristian. Worth every penny and recommend it highly. To get the most out of this course, its best to to take the</p>
+													    	<div class="ssp_reply float-right"><span class="flaticon-consulting-message"></span><span class="pl10">Reply</span></div>
+											    			<div class="sspd_review_liked">
+											    				<a href="#"><i class="flaticon-like-1"></i><span class="text-thm6 pl5 pr5 fz15">15</span> Thank Waren</a>
+											    			</div>
+												    	</div>
+												    </div>
+												</div>
+											</div>
+											<div class="custom_hr"></div>
+											<div class="mbp_second media csv1">
+												<img src="images/resource/review1.png" class="align-self-start mr-3" alt="review1.png">
+												<div class="media-body">
+											    	<h4 class="sub_title mt-0">Warren Bethell
+														<span class="sspd_review float-right">
+															<ul>
+																<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																<li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+																<li class="list-inline-item"></li>
+															</ul>
+														</span>										    		
+											    	</h4>
+											    	<a class="sspd_postdate fz14" href="#">6 months ago</a>
+											    	<p class="fz15 mt20">This is the second Photoshop course I have completed with Cristian. Worth every penny and recommend it highly. To get the most out of this course, its best to to take the Beginner to Advanced course first.</p>
+											    	<p class="fz15 mt25 mb25">The sound and video quality is of a good standard. Thank you Cristian.</p> <div class="ssp_reply float-right"><span class="flaticon-consulting-message"></span><span class="pl10">Reply</span></div>
+											    	<div class="sspd_review_liked"><a href="#"><i class="flaticon-like-1"></i> <span class="text-thm6 pl5 pr5 fz15">15</span> Thank Waren</a></div>
+												</div>
+											</div>
+											<div class="text-center mt50">
+												<div class="custom_hr"></div>
+												<button type="button" class="more-review-btn btn">See more reviews</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> 
+				</div> 				
+			</div>
+		</div>
+	</section>
+
+	<!-- Our Footer -->
+	<section class="footer_one home3">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-4 col-md-3 col-lg-3">
+					<div class="footer_contact_widget">
+						<h4>CONTACT</h4>
+						<p>329 Queensberry Street, North Melbourne </p>
+						<p>VIC 3051, Australia.</p>
+						<p>123 456 7890</p>
+						<p><a href="https://grandetest.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="74070104041b060034111001190d5a171b19">[email&#160;protected]</a></p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+					<div class="footer_company_widget">
+						<h4>COMPANY</h4>
+						<ul class="list-unstyled">
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="page-contact.html">Contact</a></li>
+							<li><a href="#">Become a Teacher</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+					<div class="footer_program_widget">
+						<h4>PROGRAMS</h4>
+						<ul class="list-unstyled">
+							<li><a href="#">Nanodegree Plus</a></li>
+							<li><a href="#">Veterans</a></li>
+							<li><a href="#">Georgia</a></li>
+							<li><a href="#">Self-Driving Car</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+					<div class="footer_support_widget">
+						<h4>SUPPORT</h4>
+						<ul class="list-unstyled">
+							<li><a href="#">Documentation</a></li>
+							<li><a href="#">Forums</a></li>
+							<li><a href="#">Language Packs</a></li>
+							<li><a href="#">Release Status</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6 col-md-3 col-lg-3">
+					<div class="footer_apps_widget">
+						<h4>MOBILE</h4>
+						<div class="app_grid">
+							<button class="apple_btn btn-dark">
+								<span class="icon">
+									<span class="flaticon-apple"></span>
+								</span>
+								<span class="title">App Store</span>
+								<span class="subtitle">Available now on the</span>
+							</button>
+							<button class="play_store_btn btn-dark">
+								<span class="icon">
+									<span class="flaticon-google-play"></span>
+								</span>
+								<span class="title">Google Play</span>
+								<span class="subtitle">Get in on</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Our Footer Middle Area -->
+	<section class="footer_middle_area home3 p0">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-md-3 col-lg-3 col-xl-2 pb15 pt15">
+					<div class="logo-widget home1">
+						<img class="img-fluid" src="images/logo/header-logo2.png" alt="header-logo.png" style="height: 55px;">
+						<!-- <span>dreamcrowd</span> -->
+					</div>
+				</div>
+				<div class="col-sm-8 col-md-5 col-lg-6 col-xl-6 pb25 pt25 brdr_left_right">
+					<div class="footer_menu_widget">
+						<ul>
+							<li class="list-inline-item"><a href="#">Home</a></li>
+							<li class="list-inline-item"><a href="#">Privacy</a></li>
+							<li class="list-inline-item"><a href="#">Terms</a></li>
+							<li class="list-inline-item"><a href="#">Sitemap</a></li>
+							<li class="list-inline-item"><a href="#">Purchase</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-3 col-xl-4 pb15 pt15">
+					<div class="footer_social_widget mt15">
+						<ul>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-google"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Our Footer Bottom Area -->
+	<section class="footer_bottom_area home3 pt30 pb30">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3">
+					<div class="copyright-widget text-center">
+						<p>Copyright Edumy © 2019. All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<a class="scrollToHome" href="#"><i class="flaticon-up-arrow-1"></i></a>
+</div>
+<!-- Wrapper End -->
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
+<script type="text/javascript" src="js/ace-responsive-menu.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="js/isotop.js"></script>
+<script type="text/javascript" src="js/snackbar.min.js"></script>
+<script type="text/javascript" src="js/simplebar.js"></script>
+<script type="text/javascript" src="js/parallax.js"></script>
+<script type="text/javascript" src="js/scrollto.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+<script type="text/javascript" src="js/jquery.counterup.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/progressbar.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/timepicker.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+
+<!-- Custom script for all pages --> 
+<script type="text/javascript" src="js/script.js"></script>
+
+<script type="text/javascript">
+	$(window).scroll(function(){  
+	    var topHeight = $('section.inner_page_breadcrumb').outerHeight();
+	    if ($(this).scrollTop() > topHeight && $(window).width() > 767) {	
+	      	$('#bookingTab').addClass('fixed'); 
+	    } else{
+	      	$('#bookingTab').removeClass('fixed');  
+	    }   
+	}); 
+</script>
+<script>
+ 	jQuery(document).ready(function () {
+     	$('#pickup_date, #pickup_date2, #pickup_date3').datepicker({
+	        format: 'yyyy-mm-dd',
+	        startDate: new Date(),
+	        autoclose: true
+     	}); 
+  	});
+</script>
+</body>
+
+
+<script>
+	$('.btn-default').on('click',function(){
+  $('.default-menu').slideToggle()
+  $('.dropdown-overlay').show()
+});
+$('.dropdown-overlay').on('click',function(){
+  $('.default-menu').hide(); 
+  $(this).hide();
+});
+
+$('.btn-danger').on('click',function(){
+  $('.slide-menu').slideToggle();
+  $('.dropdown-overlay').show();
+})
+$('.dropdown-overlay').on('click',function(){
+  $('.slide-menu').hide();
+  $(this).hide();
+})
+
+
+
+
+</script>
+
+
+<script>
+	
+    var count = 1;
+    var countEl = document.getElementById("count");
+    function plus(){
+        count++;
+        countEl.value = count;
+    }
+    function minus(){
+      if (count > 1) {
+        count--;
+        countEl.value = count;
+      }  
+    }
+
+</script>
+
+</html>
