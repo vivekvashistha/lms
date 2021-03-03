@@ -1,6 +1,7 @@
 <?php
 
 use App\Domains\Page\Http\Controllers\Backend\Pages\PagesController;
+use App\Domains\Page\Http\Controllers\Backend\Pages\DeletedPagesController;
 use App\Domains\Page\Models\Pages;
 use Tabuna\Breadcrumbs\Trail;
 
